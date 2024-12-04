@@ -108,7 +108,7 @@ const Footer = () => {
                 href="/" 
                 className="logo reveal-up mr-5"
                 >
-                    <img src="/public/images/logo1.svg"
+                    <img src="/images/logo1.svg"
                     width={30}
                     height={30}
                     alt="Logo" 

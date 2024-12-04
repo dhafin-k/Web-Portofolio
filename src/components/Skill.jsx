@@ -22,7 +22,7 @@ const skillItem = [
       desc: 'Design Tool'
     },
     { 
-      imgSrc: '/public/images/Mysql.svg',
+      imgSrc: '/images/Mysql.svg',
       label: 'MySQL',
       desc: 'Databases'
     },
@@ -42,12 +42,12 @@ const skillItem = [
       desc: 'User Interface'
     },
     {
-      imgSrc: '/public/images/Vitejs.svg',
+      imgSrc: '/images/Vitejs.svg',
       label: 'Vite',
       desc: 'Service'
     },
     {
-      imgSrc: '/public/images/Php.svg',
+      imgSrc: '/images/Php.svg',
       label: 'Php',
       desc:'Backend'
     },

@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="flex items-center gap-3">
             <figure className="img-box w-9 h-9 rounded-lg">
                 <img 
-                 src="/public/images/avatar-3.jpg"
+                 src="/images/avatar-3.jpg"
                  width= {40}
                  height= {40}
                  alt="Jananta Dhafine K." 
@@ -53,7 +53,7 @@ const Hero = () => {
           <div className="hidden lg:block">
             <figure className="place-items-center max-w-[480] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
               <img 
-              src="/public/images/hero-banner1.png" 
+              src="/images/hero-banner1.png" 
               width={370}
               height={300}
               alt="Jananta Dhafine" 
