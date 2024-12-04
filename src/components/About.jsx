@@ -21,9 +21,9 @@ const About = () => {
     id="about"
     className="section">
     <div className="container">
-        <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12">
+        <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
         <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[65ch]">
-        Welcome! I&apos;m Dhafine, a professional web developer with a knack for crafting visually stunning and highly functional websites. Combining creativity and technical expertise. I transform your vision into digital masterpiece that excels in both appearance and performance
+        Hello, my name is Jananta Dhafine Kresnadyaksa,and I am a web developer. I specialize in creating functional and user-friendly websites that help businesses and communities thrive. I am passionate about community development and aspire to create sustainable and innovative solutions for local growth. I enjoy collaborating with others to bring ideas to life and make a positive impact through technology.
         </p>
 
         <div className="flex flex-wrap items-center gap-4 md:gap-7">
@@ -40,7 +40,7 @@ const About = () => {
                 ))
             }
 
-            <img src="/public/images/logo.svg" alt="Logo" 
+            <img src="/public/images/logo1.svg" alt="Logo" 
             width={30}
             height={30}
             className="ml-auto md:w-[40px] md:h-[40px]" 

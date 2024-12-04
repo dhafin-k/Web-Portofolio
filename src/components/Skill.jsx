@@ -4,7 +4,7 @@ const skillItem = [
     {
       imgSrc: '/images/figma.svg',
       label: 'Figma',
-      desc: 'Design tool'
+      desc: "Design Tool"
     },
     {
       imgSrc: '/images/css3.svg',
@@ -17,29 +17,39 @@ const skillItem = [
       desc: 'Interaction'
     },
     {
-      imgSrc: '/images/nodejs.svg',
-      label: 'NodeJS',
-      desc: 'Web Server'
+      imgSrc: '/images/alight-motion.png',
+      label: 'Alight Motion',
+      desc: 'Design Tool'
+    },
+    { 
+      imgSrc: '/public/images/Mysql.svg',
+      label: 'MySQL',
+      desc: 'Databases'
     },
     {
-      imgSrc: '/images/expressjs.svg',
-      label: 'ExpressJS',
-      desc: 'Node Framework'
-    },
-    {
-      imgSrc: '/images/mongodb.svg',
-      label: 'MongoDB',
-      desc: 'Database'
+      imgSrc: '/images/laravel.svg',
+      label: 'laravel',
+      desc: 'Php Framework'
     },
     {
       imgSrc: '/images/react.svg',
       label: 'React',
-      desc: 'Framework'
+      desc: 'JS Framework'
     },
     {
       imgSrc: '/images/tailwindcss.svg',
       label: 'TailwindCSS',
       desc: 'User Interface'
+    },
+    {
+      imgSrc: '/public/images/Vitejs.svg',
+      label: 'Vite',
+      desc: 'Service'
+    },
+    {
+      imgSrc: '/public/images/Php.svg',
+      label: 'Php',
+      desc:'Backend'
     },
   ];
 
@@ -49,11 +59,11 @@ const Skill = () => {
     <section className="section">
         <div className="container">
 
-            <h2 className="headline-2">
+            <h2 className="headline-2 reveal-up">
             Essential Tools I use
             </h2>
 
-        <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch]">
+        <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] reveal-up">
         Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.
         </p>
 
@@ -66,6 +76,7 @@ const Skill = () => {
                         imgSrc={imgSrc}
                         label={label}
                         desc={desc}
+                        classes="reveal-up"
                         />
                     ))
             }

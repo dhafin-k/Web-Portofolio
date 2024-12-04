@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 // Primary Button
 
 const ButtonPrimary = ({
-    href,
+    href='https://www.futurelearn.com/profiles/21780055',
     target = 'self',
     label,
     icon,
@@ -25,7 +25,7 @@ const ButtonPrimary = ({
                     <span className="material-symbols-rounded" aria-hidden="true">
                         {icon}
                     </span>
-                    : undefined
+                    :undefined
                     }
                 </a>
             )
@@ -57,8 +57,8 @@ ButtonPrimary.propTypes = {
 // Outline Button
 
 const ButtonOutline = ({
-    href,
-    target = 'self',
+    href='#about',
+    target,
     label,
     icon,
     classes

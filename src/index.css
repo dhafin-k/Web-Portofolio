@@ -6,7 +6,7 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    scrollbar-width: none;
+    /* scrollbar-width: none; */
 }
 
 body {
@@ -39,17 +39,27 @@ body {
 
 /* --------------------- UTILITIES --------------------- */
 
-.material-symbols-rounded {
+/* .material-symbols-rounded {
     /* @apply w-[1rem] h-[1rem] overflow-hidden; */
-    font-variation-settings: "FILL" 0, "wght" 400,"GRAD" 0,"opsz" 24;
+    /* font-variation-settings: "FILL" 1, "wght" 400,"GRAD" 0,"opsz" 24; */
+/* } */
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
+
 
 .container {
     @apply px-4 mx-auto lg:px-6 xl:max-w-6xl
 }
 
 .container2{
-    @apply pl-6 mx-auto lg:pl-32 xl:max-w-6xl;
+    @apply pl-6 mx-auto lg:px-9 xl:max-w-6xl;
     overflow-x: hidden;
 }
 
@@ -64,7 +74,9 @@ body {
 .section {
     @apply pt-20 lg:pt-32 
 }
-
+.reveal-up{
+    @apply translate-y-20 opacity-0
+}
 /* --------------------- COMPONENTS --------------------- */
 
 /* MENU btn */
@@ -124,4 +136,24 @@ body {
 
 .btn-outline {
     @apply h-11 bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-900
+}
+
+/* Text Field */
+
+.label {
+    @apply block text-zinc-200 text-sm font-normal mb-2
+}
+
+.text-field {
+    @apply block outline-none w-full px-3 py-3 text-sm bg-zinc-800 rounded-xl ring-1
+    ring-inset ring-transparent transition-shadow hover:ring-zinc-50/5 focus:ring-sky-400
+    focus:ring-2
+}
+
+.text-field::placeholder {
+    @apply text-zinc-400
+}
+
+.logo1:hover {
+    fill: red;
 }
