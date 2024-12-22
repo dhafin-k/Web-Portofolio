@@ -64,7 +64,7 @@ body {
 }
 
 .img-box {
-    @apply bg-zinc-700 overflow-hidden;
+    @apply overflow-hidden bg-zinc-700;
 }
 
 .img-cover {
@@ -152,8 +152,4 @@ body {
 
 .text-field::placeholder {
     @apply text-zinc-400
-}
-
-.logo1:hover {
-    fill: red;
 }
